@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@utility font-barlow {
+  font-family: var(--font-barlow);
+}
+
+@utility font-dm {
+  font-family: var(--font-dm);
+}
+
+html {
+  scroll-behavior: smooth;
+}
